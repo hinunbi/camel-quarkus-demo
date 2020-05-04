@@ -56,7 +56,7 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-builder</artifactId>
-      <version>1.4.1.Final</version>
+      <version>${quarkus.platform.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
@@ -64,15 +64,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-direct</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-file-watch</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-endpointdsl</artifactId>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
@@ -102,12 +94,6 @@
       <groupId>org.apache.camel.quarkus</groupId>
       <artifactId>camel-quarkus-caffeine-lrucache</artifactId>
     </dependency>
-
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-groovy</artifactId>
-    </dependency>
-
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
